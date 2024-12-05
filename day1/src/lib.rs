@@ -47,12 +47,7 @@ fn part_2(file_path: String) -> AOCResult<u32> {
                 .map(|x| x.parse::<u32>().unwrap());
 
             list1.push(split_line.next().unwrap());
-            let right = split_line.next().unwrap();
-            if map.contains_key(&right) {
-                map.insert(right, map.get(&right).unwrap() + 1);
-            } else {
-                map.insert(right, 1);
-            }
+            *map.entry(split_line.next().unwrap()).or_insert(0) += 1;
             return (list1, map);
         },
     );

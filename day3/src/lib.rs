@@ -1,5 +1,3 @@
-use std::num::ParseIntError;
-
 use regex::Regex;
 use shared_types::AOCResult;
 

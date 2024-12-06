@@ -7,3 +7,4 @@ edition = "2021"
 shared_types = {path="./shared_types"}
 day1 = {path="./day1"}
 day2 = {path="./day2"}
+day3 = {path="./day3"}

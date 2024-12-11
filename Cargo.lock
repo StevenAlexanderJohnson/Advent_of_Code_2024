@@ -9,6 +9,7 @@ dependencies = [
  "day1",
  "day2",
  "day3",
+ "day4",
  "shared_types",
 ]
 
@@ -40,6 +41,13 @@ name = "day3"
 version = "0.1.0"
 dependencies = [
  "regex",
+ "shared_types",
+]
+
+[[package]]
+name = "day4"
+version = "0.1.0"
+dependencies = [
  "shared_types",
 ]
 

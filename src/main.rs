@@ -13,6 +13,7 @@ fn main() {
         1 => day1::run("./inputs/day1/input.txt".to_string(), part_number),
         2 => day2::run("./inputs/day2/input.txt".to_string(), part_number),
         3 => day3::run("./inputs/day3/input.txt".to_string(), part_number),
+        4 => day4::run("./inputs/day4/input.txt".to_string(), part_number),
         _ => {
             println!("Day {} not implemented yet", day_number);
             Err("Day not implemented yet".into())

@@ -264,7 +264,7 @@ mod tests {
     }
 
     #[test]
-    fn test_XMasBlock_new() {
+    fn test_xmasblock_new() {
         let x_mas_block = XMasBlock::new('A', 'B', 'C', 'D');
         assert_eq!(x_mas_block.top_left, 'A');
         assert_eq!(x_mas_block.top_right, 'B');
@@ -273,7 +273,7 @@ mod tests {
     }
 
     #[test]
-    fn test_XMasBlock_validate() {
+    fn test_xmasblock_validate() {
         let block = XMasBlock::new('M', 'M', 'S', 'S');
         assert_eq!(block.validate_x_mas(), true);
 
